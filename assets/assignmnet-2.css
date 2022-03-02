@@ -120,10 +120,12 @@ img {
 .contact-me-class {
   padding: 1rem;
   flex-wrap: wrap;
-  display: f;
+  display: grid;
   border: solid black 3px;
   flex-direction: row;
   margin: 0.5rem 0;
+  width: 100%;
+  justify-content: center;
 }
 
 .contact-me-class a {
